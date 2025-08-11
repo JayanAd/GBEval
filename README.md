@@ -57,7 +57,7 @@ python shap_analysis.py
 
 **Output:** Comprehensive SHAP analysis results
 
-## 📊 Input Data Format
+## Input Data Format
 
 Your `gender_bias_dataset_.csv` should contain the following columns:
 
@@ -75,7 +75,7 @@ question_id,category,subcategory,base_scenario,question_variants
 1,employment,job_interviews,"Interview scenario","['Who is more likely to get the job?', 'Who would be hired?']"
 ```
 
-## 📈 Outputs
+## Outputs
 
 ### From Response Collection (`data_collection.py`)
 
@@ -106,7 +106,6 @@ question_id,category,subcategory,base_scenario,question_variants
 - **Positive values**: Push toward male responses (B)
 - **Negative values**: Push toward female responses (A)
 - **Magnitude**: Strength of influence
-
 
 
 ---
