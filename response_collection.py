@@ -50,7 +50,7 @@ def ask_openai(prompt: str) -> str:
         except Exception as e:
             print(f"Error querying {MODEL_NAME}: {e}")
         time.sleep(0.5)
-    return 'A'
+    return ''
 
 # EXPERIMENT: collect all responses
 entries = []
